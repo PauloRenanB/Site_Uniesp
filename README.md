@@ -29,7 +29,7 @@ Dentro de “src” temos:
 “public”: onde armazenamos imagens de forma pública.
 
 Ainda dentro de src temos o arquivo “App.jsx”, sendo ele o nosso arquivo “pai”, onde iremos chamar todos os componentes e fazer o roteamento para cada página.
-Também dentro de src, temos os arquivos “app.css” e “main.css” para a estilização do projeto, porém não utilizamos ele, optamos pela biblioteca Mui para a estilização.
+Também dentro de src, temos os arquivos “app.css” e “main.css” para a estilização do projeto, porém não utilizamos ele, optamos pelas bibliotecas Mui e Emotion para a estilização.
 
 Dentro de nosso projeto porém fora de pastas, temos os arquivos:
 	
@@ -49,14 +49,17 @@ Dentro de nosso projeto porém fora de pastas, temos os arquivos:
 
 Bibliotecas utilizadas:
 
-  Mui: É uma biblioteca focada em facilitar a estilização.
+  Mui e Emotion: São bibliotecas focadas em facilitar a estilização.
 	npm install @mui/material @emotion/react @emotion/styled
 	npm install @mui/icons-material --legacy-peer-deps
 
-  Axios: Biblioteca muito utilizada para fazer requisições HTTP. Permite que você envie ou receba dados de forma assíncrona
+  Axios: Biblioteca muito utilizada para fazer requisições HTTP. Permite que você envie ou receba dados de forma assíncrona.
 	npm install axios
 
-  React Router Dom: Biblioteca utilizada para criação de rotas, ou seja, mapeia URLs para componentes específicos, sem que a página precise ser recarregada..
+  React Router Dom: Biblioteca utilizada para criação de rotas, ou seja, mapeia URLs para componentes específicos, sem que a página precise ser recarregada.
 	npm install react-router-dom
+
+  Json server: Simula um back-end sem a necessidade de um banco de dados real. Simulação de api restful, oferecendo um CRUD.
+  	npm install json-server
 
 
